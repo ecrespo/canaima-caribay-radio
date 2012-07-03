@@ -1,0 +1,14 @@
+Section: misc
+Priority: optional
+Homepage: http://canaima.softwarelibre.gob.ve
+Standards-Version: 3.9.2
+
+Package: canaima-caribay-radio
+Version: 1.6
+Maintainer: Ernesto Nadir Crespo Avila <ecrespo@cenditel.gob.ve>
+Depends: ${misc:Depends},jackd2, libjack-jackd2-0, libjack-jackd2-dev, pulseaudio-module-jack, qjackctl,vorbis-tools, libvorbis-dev, libogg-dev, libmad0-dev, libsamplerate0-dev, libflac-dev, libsndfile1-dev, libavcodec-dev, libavformat-dev, libspeex-dev, python-gtk2-dev, python-mutagen, libdbus-1-dev, ffmpeg, libshout3-dev, libtwolame-dev, twolame, idjc, audacity, audacity-data, audacity-dbg, icecast2, easytag, radiotray,mp3splt-gtk, mp3splt,ardour,easymp3gain-gtk,winff,darksnow,pulseaudio-utils,pulseaudio,libpulse-dev,libpulse0,qtractor,tap-plugins,swh-plugins,rev-plugins, swh-plugins,invada-studio-plugins-ladspa,invada-studio-plugins-lv2,cmt,vocproc,lv2vocoder,lame,soundconverter,gstreamer0.10-lame,patchage,hydrogen-drumkits,hydrogen,darkice,polymer, canaima-rivendell, canaima-radiotray-conf, canaima-caribay-audio-conf
+Architecture: all
+Copyright: copyright
+Changelog: changelog 
+Description: Metapaquete para la instalacion de radio streaming
+ Metapaquete para la instalacion de radio streaming con icecast2 e idjc.
