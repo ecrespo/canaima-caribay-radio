@@ -1,3 +1,11 @@
+canaima-caribay-radio (1:1.7) unstable; urgency=low
+
+  * Add gstreamer0.10-plugins-bad-dbg   in depends debian/control file.
+  * Add gstreamer0.10-plugins-bad in depends debian/control file.
+  * Add gstreamer0.10-plugins-really-bad in depends debian/control file.
+
+ -- Ernesto Nadir Crespo Avila <ecrespo@cenditel.gob.ve>  Mon, 06 Aug 2012 09:46:44 -0430
+ 
 canaima-caribay-radio (1:1.6) unstable; urgency=low
 
   * Add canaima-caribay-audio-conf  in depends debian/control file.
